@@ -105,6 +105,11 @@ a {
   text-shadow: 0 -1px 1px #000;
   box-shadow: 0 2px 2px #aaa; /*2px 2px 3px rgba(0,0,0,0.28);*/
   background-color: white;
+  /*     background-image: linear-gradient(20deg, rgba(255,255,255,0.8) 0%, #fff 50%, rgba(255,255,255,0.8)); 
+      box-shadow: 15px 15px 0 rgba(0,0,0,0.2);
+    margin: 4rem 0;
+    padding: 4rem;
+  */
 }
 
 canvas {
