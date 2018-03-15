@@ -20,8 +20,16 @@ $ npm run generate
 ```
 ---
 
+### Setup Netlify
+
+```bash
+# install netlify-cli
+$ npm install -g netlify-cli
+```
+
 # Todo
 
-- [ ] Setup deploy 
+- [x] Setup deploy netlify
+- [ ] Setup Custom Domain
 - [ ] Add [Particle.js](https://github.com/creotip/vue-particles) to page  
 - [ ] Setup About
