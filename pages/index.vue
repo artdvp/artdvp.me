@@ -2,9 +2,9 @@
   <div class="container" id="firstP">
     <div class="p_title"> 
       <div>
-        <label class="p_lab">Artdvp</label>
-        <label class="p_lab p_heart">❤</label>
-        <label class="p_lab"><b class="p_js">JS</b></label>
+        <nuxt-link to="/about"><label class="p_lab">Artdvp</label></nuxt-link>
+        <nuxt-link to="/love"><label class="p_lab p_heart">❤</label></nuxt-link>
+        <nuxt-link to="/js-world"><label class="p_lab"><b class="p_js">JS</b></label></nuxt-link>
       </div>
     </div>
   </div>
@@ -28,9 +28,20 @@ export default {
 </script>
 
 <style>
+body {
+  margin: 0;
+  padding: 0;
+  background: #ddd;
+}
+</style>
+
+
+<style scoped>
+
 .container
 {
   min-height: 100vh;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,13 +51,6 @@ export default {
 * {
   box-sizing: border-box;
 }
-
-body {
-  background: #ddd;
-  margin: 0;
-  font: normal 75% Arial, Helvetica, sans-serif;
-}
-
 header {
   font-size: 30px;
   font-family: 'Montserrat', sans-serif;
@@ -65,6 +69,11 @@ header {
 }
 .p_lab{
   padding: 5px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
 }
 
 .p_heart{
@@ -103,14 +112,16 @@ header {
 canvas {
   display: block;
   vertical-align: bottom;
-} /* ---- particles.js container ---- */
+} 
+/* ---- particles.js container ---- */
+
 #firstP {
   /* position: absolute; */
-  width: 100%;
+  /* width: 100%;
   height: 100%;
   background-image: url("");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 50% 50%; */
 }
 </style>
