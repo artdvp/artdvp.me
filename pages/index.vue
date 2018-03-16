@@ -11,20 +11,20 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import Logo from "~/components/Logo.vue";
 
 export default {
   head: {
     script: [
       {
-        src: ''
+        src: ""
       }
     ]
   },
   components: {
     Logo
   }
-}
+};
 </script>
 
 <style>
@@ -37,9 +37,7 @@ body {
 
 
 <style scoped>
-
-.container
-{
+.container {
   min-height: 100vh;
   width: 100%;
   display: flex;
@@ -53,7 +51,7 @@ body {
 }
 header {
   font-size: 30px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: bold;
@@ -61,37 +59,37 @@ header {
   margin-top: 50px;
   margin-bottom: 50px;
 }
-.p_flex{
+.p_flex {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-content: center;
 }
-.p_lab{
+.p_lab {
   padding: 5px;
 }
 
-a{
-    text-decoration: none;
-    color:black;
+a {
+  text-decoration: none;
+  color: black;
 }
 
-.p_heart{
+.p_heart {
   opacity: 0.8;
   color: red;
 }
 
-.p_js{
+.p_js {
   padding: 5px 0px 0px 8px;
-  background-color: #F7DF1E;
-  font-family: 'Montserrat', sans-serif;
+  background-color: #f7df1e;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  border: 1px solid #F7DF1E;
+  border: 1px solid #f7df1e;
   box-shadow: 0 2px 2px #aaa;
 }
 
 .p_title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   display: flex;
   font-size: 25px;
   width: 250px;
@@ -112,7 +110,7 @@ a{
 canvas {
   display: block;
   vertical-align: bottom;
-} 
+}
 /* ---- particles.js container ---- */
 
 #firstP {

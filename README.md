@@ -4,7 +4,7 @@
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 $ npm install
 
@@ -18,6 +18,7 @@ $ npm start
 # generate static project
 $ npm run generate
 ```
+
 ---
 
 ### Setup Netlify
@@ -29,10 +30,10 @@ $ npm install -g netlify-cli
 
 # Todo
 
-- [x] Setup deploy netlify
-- [x] Add About Section
-- [x] Add Love Section
-- [x] Add Js-World Section
-- [ ] Setup Custom Domain
-- [ ] Add [Particle.js](https://github.com/creotip/vue-particles) to page  
-- [ ] Setup About
+* [x] Setup deploy netlify
+* [x] Add About Section
+* [x] Add Love Section
+* [x] Add Js-World Section
+* [ ] Setup Custom Domain
+* [ ] Add [Particle.js](https://github.com/creotip/vue-particles) to page
+* [ ] Setup About

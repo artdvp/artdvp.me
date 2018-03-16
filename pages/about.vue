@@ -6,14 +6,11 @@
       <p>I'm interesting new stuff</p>
       <nuxt-link to="/">Home</nuxt-link>
     </div>
-  
   </div>
-  
 </template>
 
 <style scoped>
-.container
-{
+.container {
   min-height: 100vh;
   display: flex;
   justify-content: center;
