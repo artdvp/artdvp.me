@@ -8,8 +8,7 @@
 </template>
 
 <style scoped>
-.container
-{
+.container {
   min-height: 100vh;
   display: flex;
   justify-content: center;

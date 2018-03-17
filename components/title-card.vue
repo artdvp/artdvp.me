@@ -5,13 +5,13 @@
 </template>
 
 <script>
-    export default{
-         data () {
-            return {
-                title_name: 'Hello I\'m Art ..' 
-            }
-        }
-    }
+export default {
+  data() {
+    return {
+      title_name: "Hello I'm Art .."
+    };
+  }
+};
 </script>
 
 <style scoped>
