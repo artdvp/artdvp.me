@@ -34,6 +34,7 @@ $ npm install -g netlify-cli
 * [x] Add About Section
 * [x] Add Love Section
 * [x] Add Js-World Section
-* [ ] Setup Custom Domain
+* [x] Setup Custom Domain
+* [x] Setup Google Analytic
 * [ ] Add [Particle.js](https://github.com/creotip/vue-particles) to page
 * [ ] Setup About
