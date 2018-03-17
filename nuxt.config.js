@@ -15,6 +15,8 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/png', href: '/favicon-32x32.png', size: '32x32' },
+      { rel: 'icon', type: 'image/png', href: '/favicon-16x16.png', size: '16x16' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700' },
       { rel: 'stylesheet', href: 'https://unpkg.com/reset-css@3.0.0/reset.css' }
     ]
