@@ -71,6 +71,8 @@ module.exports = {
       "@nuxtjs/sitemap",
       {
         path: "/sitemap.xml",
+        hostname: 'https://artdvp.me',
+        cacheTime: 1000 * 60 * 15,
         generate: true, // for build
         routes: rt.routes
       }
