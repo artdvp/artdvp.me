@@ -2,6 +2,10 @@
 
 > My Personal site
 
+## ReadRef
+
+* [ReadRef](/READREF.md)
+
 ## Build Setup
 
 ```bash
@@ -28,6 +32,12 @@ $ npm run generate
 $ npm install -g netlify-cli
 ```
 
+### Add Module 
+
+```bash
+$ npm install @nuxtjs/sitemap
+```
+
 # Todo
 
 * [x] Setup deploy netlify 
@@ -37,6 +47,7 @@ $ npm install -g netlify-cli
 * [x] Setup Custom Domain
 * [x] Setup Google Analytic [link1](https://github.com/artdvp/artdvp.me/commit/c81f8c31ddd8423b240f3826fd0fbc1a70ddbb73) [link2](https://github.com/artdvp/artdvp.me/commit/0049f616a41654033552e93374ac3baf3f9cc21f)
 * [x] edit favicons new [link](https://github.com/artdvp/artdvp.me/commit/b82c2286c0de9a3688f2cc9b687da98651ce09f1)
+* [x] Add [@nuxtjs/sitemap](https://github.com/nuxt-community/sitemap-module) Modules to site
 * [ ] Add [Particle.js](https://github.com/creotip/vue-particles) to page
 * [ ] Setup About add Profile
 * [ ] Setup Blog Static for write blog markdown
