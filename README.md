@@ -51,3 +51,4 @@ $ npm install @nuxtjs/sitemap
 * [ ] Add [Particle.js](https://github.com/creotip/vue-particles) to page
 * [ ] Setup About add Profile
 * [ ] Setup Blog Static for write blog markdown
+* [ ] Add Style UI Bulma
